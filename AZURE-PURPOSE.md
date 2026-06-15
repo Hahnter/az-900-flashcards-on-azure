@@ -89,6 +89,10 @@ Possible additions:
 - Add an Azure Function API for serverless compute practice
 - Add Application Insights notes for monitoring practice
 
+## Objective-Based Review
+
+The flashcards are linked to AZ-900 objective codes, such as OBJ 1.1, OBJ 2.3, and OBJ 3.4. This makes the app useful for reviewing by exam domain instead of only studying random Azure terms.
+
 ## Portfolio Summary
 
 This project demonstrates that I can connect AZ-900 study topics to a real cloud-hosted application. It is not meant to be a complex production system. It is meant to show foundational understanding of Azure, cloud hosting, managed services, CI/CD, cost awareness, and basic governance.

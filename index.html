@@ -24,12 +24,17 @@
           <select id="category-filter">
             <option value="All">All</option>
           </select>
+          <label class="select-label" for="objective-filter">Objective</label>
+          <select id="objective-filter">
+            <option value="All">All</option>
+          </select>
           <button id="shuffle-button" type="button">Shuffle</button>
           <button id="reset-button" type="button">Reset</button>
         </div>
 
         <button id="flashcard" class="flashcard" type="button" aria-pressed="false">
           <span id="card-category" class="category-tag"></span>
+          <span id="card-objective" class="objective-tag"></span>
           <span id="card-side" class="card-side">Question</span>
           <span id="card-text" class="card-text"></span>
           <span class="flip-hint">Click to reveal answer</span>

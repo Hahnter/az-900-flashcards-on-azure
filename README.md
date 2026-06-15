@@ -1,7 +1,4 @@
 # AZ-900 Flashcards on Azure
-## Live Demo
-
-Hosted on Azure Static Web Apps: https://ambitious-flower-04577f110.7.azurestaticapps.net
 
 A simple flashcard study app for Microsoft Azure Fundamentals: AZ-900.
 
@@ -11,6 +8,7 @@ This project is designed to be hosted on Azure Static Web Apps and used as a pra
 
 - Flip cards between question and answer
 - Filter by AZ-900 category
+- Filter by specific AZ-900 objective
 - Shuffle cards
 - Track known and missed cards
 - Works as a static site with HTML, CSS, and JavaScript
@@ -43,3 +41,7 @@ I built this while studying for AZ-900 so I could turn Azure concepts into flash
 ## Azure Relevance
 
 See [AZURE-PURPOSE.md](AZURE-PURPOSE.md) for a focused explanation of how this project relates to Azure and Microsoft Azure Fundamentals: AZ-900.
+
+## Objective Coverage
+
+See [OBJECTIVE-COVERAGE.md](OBJECTIVE-COVERAGE.md) for the exam-objective checklist used to build the current flashcard set.
