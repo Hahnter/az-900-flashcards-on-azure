@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AZ-900 Flashcards on Azure</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="study-panel" aria-labelledby="app-title">
+        <div class="title-row">
+          <div>
+            <p class="eyebrow">Microsoft Azure Fundamentals</p>
+            <h1 id="app-title">AZ-900 Flashcards</h1>
+          </div>
+          <div class="progress-pill" aria-live="polite">
+            <span id="card-position">1</span>/<span id="card-total">0</span>
+          </div>
+        </div>
+
+        <div class="toolbar" aria-label="Study controls">
+          <label class="select-label" for="category-filter">Category</label>
+          <select id="category-filter">
+            <option value="All">All</option>
+          </select>
+          <button id="shuffle-button" type="button">Shuffle</button>
+          <button id="reset-button" type="button">Reset</button>
+        </div>
+
+        <button id="flashcard" class="flashcard" type="button" aria-pressed="false">
+          <span id="card-category" class="category-tag"></span>
+          <span id="card-side" class="card-side">Question</span>
+          <span id="card-text" class="card-text"></span>
+          <span class="flip-hint">Click to reveal answer</span>
+        </button>
+
+        <div class="answer-buttons" aria-label="Score this card">
+          <button id="missed-button" type="button">Missed</button>
+          <button id="known-button" type="button">Knew It</button>
+        </div>
+
+        <div class="navigation" aria-label="Card navigation">
+          <button id="previous-button" type="button">Previous</button>
+          <button id="next-button" type="button">Next</button>
+        </div>
+      </section>
+
+      <aside class="stats-panel" aria-labelledby="stats-title">
+        <h2 id="stats-title">Study Stats</h2>
+        <dl class="stats-grid">
+          <div>
+            <dt>Known</dt>
+            <dd id="known-count">0</dd>
+          </div>
+          <div>
+            <dt>Missed</dt>
+            <dd id="missed-count">0</dd>
+          </div>
+          <div>
+            <dt>Filtered</dt>
+            <dd id="filtered-count">0</dd>
+          </div>
+        </dl>
+        <p class="note">
+          Built to study AZ-900 concepts with Azure Static Web Apps, GitHub-based deployment,
+          managed hosting, resource groups, regions, and cloud pricing in mind.
+        </p>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
