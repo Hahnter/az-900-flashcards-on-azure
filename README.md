@@ -1,4 +1,7 @@
 # AZ-900 Flashcards on Azure
+## Live Demo
+
+Hosted on Azure Static Web Apps: https://ambitious-flower-04577f110.7.azurestaticapps.net
 
 A simple flashcard study app for Microsoft Azure Fundamentals: AZ-900.
 
